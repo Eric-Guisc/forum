@@ -1,0 +1,9 @@
+2021-06-25 19:24:57,691 INFO [main] p.g.f.t.LoggerTest [StartupInfoLogger.java:55] Starting LoggerTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 90024 (started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-06-25 19:24:57,694 INFO [main] p.g.f.t.LoggerTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-25 19:24:59,407 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-25 19:24:59,626 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-25 19:24:59,817 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-25 19:24:59,913 INFO [main] p.g.f.t.LoggerTest [StartupInfoLogger.java:61] Started LoggerTest in 2.63 seconds (JVM running for 3.437)
+2021-06-25 19:25:00,157 INFO [main] p.g.f.t.LoggerTest [LoggerTest.java:24] info log
+2021-06-25 19:25:00,170 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-25 19:25:00,178 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

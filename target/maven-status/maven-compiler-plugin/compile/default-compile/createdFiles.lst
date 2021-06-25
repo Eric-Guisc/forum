@@ -1,0 +1,8 @@
+priv/gsc/forum/controller/HomeController.class
+priv/gsc/forum/entity/User.class
+priv/gsc/forum/service/DiscussPostService.class
+priv/gsc/forum/dao/DiscussPostMapper.class
+priv/gsc/forum/service/UserService.class
+priv/gsc/forum/entity/DiscussPost.class
+priv/gsc/forum/dao/UserMapper.class
+priv/gsc/forum/ForumApplication.class
