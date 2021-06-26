@@ -1,20 +1,108 @@
 package priv.gsc.forum.service;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.Context;
 import priv.gsc.forum.dao.UserMapper;
 import priv.gsc.forum.entity.User;
+import priv.gsc.forum.util.ForumConstant;
+import priv.gsc.forum.util.ForumUtil;
+import priv.gsc.forum.util.MailClient;
 
-import java.util.List;
+import java.util.*;
 
 @Service
-public class UserService {
+public class UserService implements ForumConstant {
 
     @Autowired
     private UserMapper userMapper;
+
+    @Value("${forum.path.domain}")
+    private String domain;
+
+    @Value("${server.servlet.context-path}")
+    private String contextPath;
+
+    @Autowired
+    private TemplateEngine templateEngine;
+
+    @Autowired
+    private MailClient mailClient;
 
     public User findUserById(int id) {
         User user = userMapper.selectById(id);
         return user;
     }
+
+    public Map<String, Object> register(User user) {
+        Map<String, Object> map = new HashMap<>();
+
+        // 空值处理
+        if (user == null) {
+            throw new IllegalArgumentException("参数不能为空！");
+        }
+        if (StringUtils.isBlank(user.getUsername())) {
+            map.put("usernameMsg", "用户名不能为空！");
+            return map;
+        }
+        if (StringUtils.isBlank(user.getPassword())) {
+            map.put("passwordMsg", "密码不能为空！");
+            return map;
+        }
+        if (StringUtils.isBlank(user.getEmail())) {
+            map.put("emailMsg", "邮箱不能为空！");
+            return map;
+        }
+
+        // 验证用户名
+        User user1 = userMapper.selectByName(user.getUsername());
+        if (user1 != null) {
+            map.put("usernameMsg", "该用户名已经存在！");
+            return map;
+        }
+
+        // 验证邮箱
+        User user2 = userMapper.selectByEmail(user.getEmail());
+        if (user2 != null) {
+            map.put("emailMsg", "该邮箱已被注册！");
+            return map;
+        }
+
+        // 注册用户
+        user.setSalt(ForumUtil.generateUUID().substring(0,5));
+        user.setPassword(ForumUtil.md5(user.getPassword() + user.getSalt()));
+        user.setType(0);    // 普通用户
+        user.setStatus(0);  // 未激活
+        user.setActivationCode(ForumUtil.generateUUID());
+        user.setHeaderUrl(String.format("http://images.nowcoder.com/head/%dt.png", new Random().nextInt(1000)));
+        user.setCreateTime(new Date());
+        userMapper.insertUser(user);
+
+        // 发送激活邮件
+        Context context = new Context();
+        context.setVariable("email",user.getEmail());
+        // url 为 http://localhost:8080/forum/activation/123/code
+        String url = domain + contextPath + "/activation/" + user.getId() + "/" + user.getActivationCode();
+        context.setVariable("url",url);
+        String content = templateEngine.process("/mail/activation", context);
+        mailClient.sendMail(user.getEmail(),"账号激活",content);
+
+
+        return map;
+    }
+
+    public int activation(int userId, String code) {
+        User user = userMapper.selectById(userId);
+        if (user.getStatus() == 1) // 重复激活
+            return ACTIVATION_REPEAT;
+        else if (user.getActivationCode().equals(code)) {
+            userMapper.updateStatus(userId, 1); // 激活用户
+            return ACTIVATION_SUCCESS;
+        } else  // 激活失败
+            return ACTIVATION_FAILURE;
+    }
+
 }
