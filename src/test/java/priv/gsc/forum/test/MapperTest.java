@@ -8,9 +8,13 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import priv.gsc.forum.ForumApplication;
 import priv.gsc.forum.dao.DiscussPostMapper;
+import priv.gsc.forum.dao.LoginTicketMapper;
 import priv.gsc.forum.dao.UserMapper;
 import priv.gsc.forum.entity.DiscussPost;
+import priv.gsc.forum.entity.LoginTicket;
 import priv.gsc.forum.entity.User;
+import priv.gsc.forum.util.ForumUtil;
+import sun.security.krb5.internal.Ticket;
 
 import java.util.Date;
 import java.util.List;
@@ -26,6 +30,9 @@ public class MapperTest {
 
     @Autowired
     private DiscussPostMapper discussPostMapper;
+
+    @Autowired
+    private LoginTicketMapper loginTicketMapper;
 
     @Test
     public void testSelectUser(){
@@ -76,6 +83,22 @@ public class MapperTest {
         System.out.println(count);
     }
 
+    @Test
+    public void testLoginTicket() {
+//        LoginTicket loginTicket = new LoginTicket();
+//        loginTicket.setUserId(110);
+//        loginTicket.setTicket(ForumUtil.generateUUID());
+//        loginTicket.setStatus(0);
+//        loginTicket.setExpired(new Date(System.currentTimeMillis() + 2 * 3600* 1000));
+//        loginTicketMapper.insertLoginTicket(loginTicket);
+
+        LoginTicket loginTicket = loginTicketMapper.selectByTicket("2761a4db74a44724a65828724408daae");
+        System.out.println(loginTicket);
+
+        loginTicketMapper.updateStatus("2761a4db74a44724a65828724408daae", 1);
+        loginTicket = loginTicketMapper.selectByTicket("2761a4db74a44724a65828724408daae");
+        System.out.println(loginTicket);
+    }
 
 
 }

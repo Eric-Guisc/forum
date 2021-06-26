@@ -16,4 +16,15 @@ public interface ForumConstant {
      * 激活失败
      */
     int ACTIVATION_FAILURE = 2;
+
+    /**
+     * 默认情况下登录凭证的保存时间
+     */
+    int DEFAULT_EXPIRED_SECONDS = 3600 * 12;
+
+
+    /**
+     * 点击记住我后登录凭证的保存时间
+     */
+    int REMEMBER_EXPIRED_SECONDS = 3600 * 24 * 10;
 }
