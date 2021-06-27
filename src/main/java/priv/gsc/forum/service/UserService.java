@@ -164,4 +164,9 @@ public class UserService implements ForumConstant {
         return loginTicket;
     }
 
+    // 上传头像，修改user的headerUrl
+    public void updateHeader(int userId, String headerUrl) {
+        userMapper.updateHeaderUrl(userId, headerUrl);
+    }
+
 }
