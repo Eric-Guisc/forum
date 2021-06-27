@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
+import priv.gsc.forum.annotation.LoginRequired;
 import priv.gsc.forum.entity.User;
 import priv.gsc.forum.service.UserService;
 import priv.gsc.forum.util.ForumUtil;
@@ -41,11 +42,19 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @LoginRequired
     @GetMapping("/setting")
     public String getSettingPage() {
         return "site/setting";
     }
 
+    /**
+     * 上传头像
+     * @param headerImage
+     * @param model
+     * @return
+     */
+    @LoginRequired
     @PostMapping("/upload")
     public String uploadHeader(MultipartFile headerImage, Model model) {
         if (headerImage == null) {
@@ -84,6 +93,11 @@ public class UserController {
         return "redirect:/index";
     }
 
+    /**
+     * 获取显示头像
+     * @param fileName
+     * @param response
+     */
     @GetMapping("/header/{fileName}")
     public void getHeader(@PathVariable("fileName") String fileName, HttpServletResponse response) {
         // 头像实际存放路径
