@@ -112,7 +112,6 @@ public class UserService implements ForumConstant {
 
     public Map<String, Object> login(String username, String password, int expiredSeconds) {
         Map<String, Object> map = new HashMap<>();
-
         // 空值处理
         if (StringUtils.isBlank(username)) {
             map.put("usernameMsg", "用户名不能为空！");
@@ -122,27 +121,23 @@ public class UserService implements ForumConstant {
             map.put("passwordMsg", "密码不能为空！");
             return map;
         }
-
         // 验证账号
         User user = userMapper.selectByName(username);
         if (user == null) {
             map.put("usernameMsg", "该账号不存在！");
             return map;
         }
-
         // 验证状态
         if (user.getStatus() == 0) {
             map.put("usernameMsg", "该账号未激活！");
             return map;
         }
-
         // 验证密码
         password = ForumUtil.md5(password + user.getSalt());
         if (!password.equals(user.getPassword())) {
             map.put("passwordMsg", "密码错误！");
             return map;
         }
-
         // 生成登录凭证
         LoginTicket loginTicket = new LoginTicket();
         loginTicket.setUserId(user.getId());
