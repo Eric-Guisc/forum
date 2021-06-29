@@ -20,7 +20,15 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
     private UserService userService;
     @Autowired
     private HostHolder hostHolder;
-    // 在请求开始时，查询登录用户
+
+    /**
+     * 在请求开始时，查询登录用户
+     * @param request
+     * @param response
+     * @param handler
+     * @return
+     * @throws Exception
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         // 从cookie中获取ticket
@@ -38,7 +46,15 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
         }
         return true;
     }
-    // 在模板视图上，显示用户数据
+
+    /**
+     * 在模板视图上，显示用户数据
+     * @param request
+     * @param response
+     * @param handler
+     * @param modelAndView
+     * @throws Exception
+     */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         User user = hostHolder.getUser();
@@ -46,36 +62,17 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
             modelAndView.addObject("loginUser", user);
         }
     }
-    // 在请求结束时，清理用户数据
+
+    /**
+     * 在请求结束时，清理用户数据
+     * @param request
+     * @param response
+     * @param handler
+     * @param ex
+     * @throws Exception
+     */
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         hostHolder.clear();
     }
 }
-
-/**
- * 在请求开始时，查询登录用户
- * @param request
- * @param response
- * @param handler
- * @return
- * @throws Exception
- */
-
-/**
- * 在模板视图上，显示用户数据
- * @param request
- * @param response
- * @param handler
- * @param modelAndView
- * @throws Exception
- */
-
-/**
- * 在请求结束时，清理用户数据
- * @param request
- * @param response
- * @param handler
- * @param ex
- * @throws Exception
- */

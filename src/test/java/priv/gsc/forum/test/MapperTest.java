@@ -100,5 +100,19 @@ public class MapperTest {
         System.out.println(loginTicket);
     }
 
+    @Test
+    public void testInsertDiscussPost() {
+        DiscussPost post = new DiscussPost();
+        post.setUserId(13);
+        post.setTitle("test11");
+        post.setContent("content111");
+        post.setStatus(0);
+        post.setType(0);
+        post.setCommentCount(0);
+        post.setScore(0);
+        post.setCreateTime(new Date());
+        final int count = discussPostMapper.insertDiscussPost(post);
+        System.out.println(count);
+    }
 
 }

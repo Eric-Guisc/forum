@@ -1,0 +1,24 @@
+2021-06-28 19:43:25,609 INFO [main] p.g.f.t.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 28870 (started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-06-28 19:43:25,618 INFO [main] p.g.f.t.SensitiveFilterTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 19:43:27,860 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 19:43:28,067 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 19:43:28,303 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 19:43:28,417 INFO [main] p.g.f.t.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 3.424 seconds (JVM running for 4.336)
+2021-06-28 19:43:28,677 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 19:43:28,691 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 19:43:59,510 INFO [main] p.g.f.t.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 28879 (started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-06-28 19:43:59,514 INFO [main] p.g.f.t.SensitiveFilterTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 19:44:01,262 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 19:44:01,410 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 19:44:01,567 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 19:44:01,660 INFO [main] p.g.f.t.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.543 seconds (JVM running for 3.288)
+2021-06-28 19:44:01,882 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 19:44:01,889 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 19:44:26,244 INFO [main] p.g.f.t.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 28894 (started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-06-28 19:44:26,247 INFO [main] p.g.f.t.SensitiveFilterTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 19:44:28,017 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 19:44:28,183 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 19:44:28,336 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 19:44:28,434 INFO [main] p.g.f.t.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.63 seconds (JVM running for 3.358)
+2021-06-28 19:44:28,621 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 19:44:28,628 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
