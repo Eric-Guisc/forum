@@ -27,4 +27,15 @@ public interface ForumConstant {
      * 点击记住我后登录凭证的保存时间
      */
     int REMEMBER_EXPIRED_SECONDS = 3600 * 24 * 10;
+
+    /**
+     * 帖子对应的EntityType
+     */
+    int ENTITY_TYPE_POST = 1;
+
+    /**
+     * 评论对应的EntityType
+     */
+    int ENTITY_TYPE_COMMENT = 2;
+
 }
