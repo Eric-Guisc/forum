@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import priv.gsc.forum.entity.DiscussPost;
 import priv.gsc.forum.entity.Page;
 import priv.gsc.forum.service.DiscussPostService;
+import priv.gsc.forum.service.MessageService;
 import priv.gsc.forum.service.UserService;
 
 import java.util.ArrayList;
@@ -45,6 +46,7 @@ public class HomeController {
             }
         }
         model.addAttribute("discussPosts",discussPosts);
+
         return "index";
     }
 }
