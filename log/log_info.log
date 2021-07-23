@@ -1,154 +1,42 @@
-2021-07-22 14:24:16,694 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25314 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 14:24:16,702 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 14:24:19,271 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 14:24:19,484 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 14:24:19,796 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 14:24:19,959 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 3.929 seconds (JVM running for 5.157)
-2021-07-22 14:24:20,375 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 14:24:20,391 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 14:25:17,738 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25330 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 14:25:17,742 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 14:25:19,804 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 14:25:20,005 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 14:25:20,194 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 14:25:20,339 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 3.089 seconds (JVM running for 3.878)
-2021-07-22 14:25:20,651 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 14:25:20,662 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 14:26:31,920 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25345 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 14:26:31,924 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 14:26:33,993 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 14:26:34,177 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 14:26:34,371 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 14:26:34,484 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 3.238 seconds (JVM running for 4.219)
-2021-07-22 14:26:34,803 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 14:26:34,816 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 14:27:20,909 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25358 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 14:27:20,913 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 14:27:22,871 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 14:27:23,051 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 14:27:23,233 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 14:27:23,347 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.891 seconds (JVM running for 3.728)
-2021-07-22 14:27:23,659 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 14:27:23,666 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 16:21:19,433 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25594 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 16:21:19,436 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 16:21:21,367 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 16:21:21,522 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 16:21:21,677 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 16:21:21,772 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.697 seconds (JVM running for 3.422)
-2021-07-22 16:21:22,060 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 16:21:22,068 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 16:21:52,992 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25607 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 16:21:52,995 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 16:21:54,844 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 16:21:55,000 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 16:21:55,162 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 16:21:55,254 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.805 seconds (JVM running for 3.52)
-2021-07-22 16:21:55,542 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 16:21:55,550 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 16:22:13,055 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25611 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 16:22:13,059 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 16:22:15,038 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 16:22:15,196 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 16:22:15,361 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 16:22:15,468 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.913 seconds (JVM running for 3.761)
-2021-07-22 16:22:15,794 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 16:22:15,803 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 16:22:45,416 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25624 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 16:22:45,420 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 16:22:47,288 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 16:22:47,452 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 16:22:47,617 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 16:22:47,724 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.696 seconds (JVM running for 3.44)
-2021-07-22 16:22:48,042 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 16:22:48,061 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 16:23:53,988 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25636 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 16:23:53,992 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 16:23:55,856 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 16:23:56,034 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 16:23:56,233 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 16:23:56,349 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.978 seconds (JVM running for 3.841)
-2021-07-22 16:23:56,670 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 16:23:56,680 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 16:24:03,915 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25640 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 16:24:03,918 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 16:24:05,739 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 16:24:06,006 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 16:24:06,255 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 16:24:06,433 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.983 seconds (JVM running for 3.904)
-2021-07-22 16:24:06,839 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 16:24:06,847 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 16:24:32,825 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 25657 (started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 16:24:32,828 INFO [main] p.g.f.t.MapperTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 16:24:34,762 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 16:24:34,925 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 16:24:35,094 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 16:24:35,199 INFO [main] p.g.f.t.MapperTest [StartupInfoLogger.java:61] Started MapperTest in 2.832 seconds (JVM running for 3.677)
-2021-07-22 16:24:35,515 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 16:24:35,524 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 23:20:41,067 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:55] Starting ForumApplication using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 3093 (/Users/guisc/IdeaProjects/forum/target/classes started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 23:20:41,069 INFO [restartedMain] p.g.f.ForumApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 23:20:41,108 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-07-22 23:20:41,109 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-07-22 23:20:42,209 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2021-07-22 23:20:42,216 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2021-07-22 23:20:42,217 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2021-07-22 23:20:42,217 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-07-22 23:20:42,276 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2021-07-22 23:20:42,276 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1167 ms
-2021-07-22 23:20:42,833 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 23:20:42,910 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 23:20:43,024 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 23:20:43,079 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2021-07-22 23:20:43,095 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2021-07-22 23:20:43,119 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/forum'
-2021-07-22 23:20:43,129 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:61] Started ForumApplication in 2.532 seconds (JVM running for 3.521)
-2021-07-22 23:20:53,623 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-07-22 23:20:53,624 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2021-07-22 23:20:53,625 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2021-07-22 23:48:26,682 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 23:48:26,687 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 23:48:30,257 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:55] Starting ForumApplication using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 3553 (/Users/guisc/IdeaProjects/forum/target/classes started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 23:48:30,259 INFO [restartedMain] p.g.f.ForumApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 23:48:30,295 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-07-22 23:48:30,295 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-07-22 23:48:31,115 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2021-07-22 23:48:31,121 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2021-07-22 23:48:31,122 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2021-07-22 23:48:31,122 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-07-22 23:48:31,163 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2021-07-22 23:48:31,163 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 867 ms
-2021-07-22 23:48:31,594 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 23:48:31,651 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 23:48:31,728 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 23:48:31,769 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2021-07-22 23:48:31,783 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2021-07-22 23:48:31,805 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/forum'
-2021-07-22 23:48:31,815 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:61] Started ForumApplication in 1.917 seconds (JVM running for 2.593)
-2021-07-22 23:48:46,017 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-07-22 23:48:46,018 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2021-07-22 23:48:46,019 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2021-07-22 23:50:08,426 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 23:50:08,430 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2021-07-22 23:50:13,750 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:55] Starting ForumApplication using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 3585 (/Users/guisc/IdeaProjects/forum/target/classes started by guisc in /Users/guisc/IdeaProjects/forum)
-2021-07-22 23:50:13,752 INFO [restartedMain] p.g.f.ForumApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
-2021-07-22 23:50:13,783 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-07-22 23:50:13,784 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-07-22 23:50:14,572 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2021-07-22 23:50:14,578 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2021-07-22 23:50:14,579 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2021-07-22 23:50:14,579 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-07-22 23:50:14,630 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2021-07-22 23:50:14,630 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 846 ms
-2021-07-22 23:50:15,100 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2021-07-22 23:50:15,162 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-07-22 23:50:15,252 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2021-07-22 23:50:15,305 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2021-07-22 23:50:15,322 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2021-07-22 23:50:15,344 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/forum'
-2021-07-22 23:50:15,353 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:61] Started ForumApplication in 1.92 seconds (JVM running for 2.382)
-2021-07-22 23:50:27,091 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-07-22 23:50:27,092 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2021-07-22 23:50:27,095 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
-2021-07-22 23:51:13,220 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2021-07-22 23:51:13,224 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-07-23 08:59:25,618 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:55] Starting ForumApplication using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 4823 (/Users/guisc/IdeaProjects/forum/target/classes started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-07-23 08:59:25,623 INFO [restartedMain] p.g.f.ForumApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-07-23 08:59:25,668 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-23 08:59:25,669 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-23 08:59:26,656 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-07-23 08:59:26,665 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-23 08:59:26,666 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-07-23 08:59:26,666 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-07-23 08:59:26,718 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-07-23 08:59:26,719 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1050 ms
+2021-07-23 08:59:27,259 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-07-23 08:59:27,332 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-07-23 08:59:27,455 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-07-23 08:59:27,506 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-07-23 08:59:27,521 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-07-23 08:59:27,544 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/forum'
+2021-07-23 08:59:27,554 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:61] Started ForumApplication in 2.51 seconds (JVM running for 3.433)
+2021-07-23 09:00:23,661 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-23 09:00:23,661 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-07-23 09:00:23,663 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2021-07-23 09:13:50,739 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-07-23 09:13:50,743 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-07-23 09:13:54,095 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:55] Starting ForumApplication using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 5046 (/Users/guisc/IdeaProjects/forum/target/classes started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-07-23 09:13:54,098 INFO [restartedMain] p.g.f.ForumApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-07-23 09:13:54,137 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-23 09:13:54,137 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-23 09:13:54,945 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-07-23 09:13:54,951 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-23 09:13:54,951 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-07-23 09:13:54,951 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-07-23 09:13:54,998 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-07-23 09:13:54,999 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 861 ms
+2021-07-23 09:13:55,436 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-07-23 09:13:55,491 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-07-23 09:13:55,567 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-07-23 09:13:55,608 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-07-23 09:13:55,623 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-07-23 09:13:55,645 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/forum'
+2021-07-23 09:13:55,654 INFO [restartedMain] p.g.f.ForumApplication [StartupInfoLogger.java:61] Started ForumApplication in 1.895 seconds (JVM running for 2.523)
+2021-07-23 09:14:05,238 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-23 09:14:05,239 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-07-23 09:14:05,240 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms

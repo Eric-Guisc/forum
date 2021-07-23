@@ -32,4 +32,8 @@ public class MessageService {
     public int findLetterUnreadCount(int userId, String conversationId) {
         return messageMapper.selectLetterUnreadCount(userId, conversationId);
     }
+
+    public int readMessage(List<Integer> ids) {
+        return messageMapper.updateStatus(ids, 1);
+    }
 }
