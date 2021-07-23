@@ -42,6 +42,11 @@ public class UserService implements ForumConstant {
         return user;
     }
 
+    public User findUserByName(String name) {
+        User user = userMapper.selectByName(name);
+        return user;
+    }
+
     public Map<String, Object> register(User user) {
         Map<String, Object> map = new HashMap<>();
 

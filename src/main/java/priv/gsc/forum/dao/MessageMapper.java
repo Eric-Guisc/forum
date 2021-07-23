@@ -28,4 +28,6 @@ public interface MessageMapper {
     // 修改消息的状态
     int updateStatus(List<Integer> ids, int status);
 
+    // 新增私信
+    int insertMessage(Message message);
 }
