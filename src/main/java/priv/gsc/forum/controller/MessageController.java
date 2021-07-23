@@ -118,6 +118,7 @@ public class MessageController {
     @PostMapping("/send")
     @ResponseBody
     public String sendLetter(String toName, String content) {
+//        Integer.valueOf("abc");
         User target = userService.findUserByName(toName);
         if (target == null) {
             return ForumUtil.getJSONString(1, "目标用户不存在！");
