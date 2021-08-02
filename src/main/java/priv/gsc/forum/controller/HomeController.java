@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import priv.gsc.forum.entity.DiscussPost;
 import priv.gsc.forum.entity.Page;
 import priv.gsc.forum.service.DiscussPostService;
+import priv.gsc.forum.service.LikeService;
 import priv.gsc.forum.service.MessageService;
 import priv.gsc.forum.service.UserService;
+import priv.gsc.forum.util.ForumConstant;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,13 +20,16 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-public class HomeController {
+public class HomeController implements ForumConstant {
 
     @Autowired
     private UserService userService;
 
     @Autowired
     private DiscussPostService discussPostService;
+
+    @Autowired
+    private LikeService likeService;
 
     @RequestMapping(path = "/index", method = RequestMethod.GET)
     public String getIndexPage(Model model, Page page) {
@@ -43,6 +48,8 @@ public class HomeController {
                 Map<String, Object> map = new HashMap<>();
                 map.put("post", post);
                 map.put("user",userService.findUserById(post.getUserId()));
+                long likeCount = likeService.findEntityLikeCount(ENTITY_TYPE_POST, post.getId());
+                map.put("likeCount", likeCount);
                 discussPosts.add(map);
             }
         }

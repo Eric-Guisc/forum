@@ -1,0 +1,33 @@
+2021-08-01 19:42:20,187 INFO [main] p.g.f.t.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 58105 (started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-08-01 19:42:20,208 INFO [main] p.g.f.t.RedisTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-08-01 19:42:21,016 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-01 19:42:21,020 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-01 19:42:21,046 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-08-01 19:42:23,648 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-08-01 19:42:24,075 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-08-01 19:42:24,389 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-08-01 19:42:24,578 INFO [main] p.g.f.t.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 5.028 seconds (JVM running for 6.044)
+2021-08-01 19:42:25,576 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-08-01 19:42:25,586 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-08-01 22:27:06,801 INFO [main] p.g.f.t.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 58619 (started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-08-01 22:27:06,804 INFO [main] p.g.f.t.RedisTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-08-01 22:27:07,430 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-01 22:27:07,433 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-01 22:27:07,455 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-08-01 22:27:09,867 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-08-01 22:27:10,228 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-08-01 22:27:10,431 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-08-01 22:27:10,565 INFO [main] p.g.f.t.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 4.235 seconds (JVM running for 4.985)
+2021-08-01 22:27:11,243 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-08-01 22:27:11,252 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-08-01 22:29:14,450 INFO [main] p.g.f.t.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_261 on guiscdeMacBook-Pro.local with PID 58657 (started by guisc in /Users/guisc/IdeaProjects/forum)
+2021-08-01 22:29:14,452 INFO [main] p.g.f.t.RedisTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-08-01 22:29:15,144 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-01 22:29:15,148 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-01 22:29:15,174 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-08-01 22:29:17,269 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-08-01 22:29:17,570 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-08-01 22:29:17,743 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-08-01 22:29:17,869 INFO [main] p.g.f.t.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 3.943 seconds (JVM running for 4.947)
+2021-08-01 22:29:18,613 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-08-01 22:29:18,623 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
