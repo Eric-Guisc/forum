@@ -1,5 +1,8 @@
 package priv.gsc.forum.util;
 
+import java.util.List;
+import java.util.Map;
+
 public class RedisKeyUtil {
 
     private static final String SPLIT = ":";
@@ -31,4 +34,5 @@ public class RedisKeyUtil {
     public static String getFollowerKey(int entityType, int entityId) {
         return PREFIX_FOLLOWER + SPLIT +entityType + SPLIT + entityId;
     }
+
 }
