@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 import priv.gsc.forum.annotation.LoginRequired;
 import priv.gsc.forum.entity.User;
+import priv.gsc.forum.service.LikeService;
 import priv.gsc.forum.service.UserService;
 import priv.gsc.forum.util.ForumUtil;
 import priv.gsc.forum.util.HostHolder;
@@ -41,6 +42,9 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private LikeService likeService;
 
     @LoginRequired
     @GetMapping("/setting")
@@ -120,6 +124,22 @@ public class UserController {
             logger.error("读取头像失败: " + e.getMessage());
         }
 
+    }
+
+    @GetMapping("/profile/{userId}")
+    public String getProfilePage(@PathVariable("userId") int userId, Model model) {
+        User user = userService.findUserById(userId);
+        if (user == null) {
+            throw new RuntimeException("该用户不存在！");
+        }
+
+        // 用户
+        model.addAttribute("user", user);
+        // 点赞数量
+        int likeCount = likeService.findUserLikeCount(userId);
+        model.addAttribute("likeCount", likeCount);
+
+        return "/site/profile";
     }
 
 }

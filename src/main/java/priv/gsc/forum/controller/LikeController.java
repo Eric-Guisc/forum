@@ -21,14 +21,14 @@ public class LikeController {
     @Autowired
     private HostHolder hostHolder;
 
-    // 异步
+    // 异步 entityUserId：被赞的人
     @PostMapping("/like")
     @ResponseBody
-    public String like(int entityType, int entityId) {
+    public String like(int entityType, int entityId, int entityUserId) {
         User user = hostHolder.getUser();
 
         // 点赞
-        likeService.like(user.getId(), entityType, entityId);
+        likeService.like(user.getId(), entityType, entityId, entityUserId);
 
         // 数量
         long likeCount = likeService.findEntityLikeCount(entityType, entityId);
