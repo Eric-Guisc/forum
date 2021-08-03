@@ -9,6 +9,7 @@ import priv.gsc.forum.entity.LoginTicket;
 
 @Mapper
 @Repository
+@Deprecated     // 不推荐使用的注解
 public interface LoginTicketMapper {
 
     @Insert({
