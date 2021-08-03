@@ -14,8 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 import priv.gsc.forum.annotation.LoginRequired;
 import priv.gsc.forum.entity.User;
+import priv.gsc.forum.service.FollowService;
 import priv.gsc.forum.service.LikeService;
 import priv.gsc.forum.service.UserService;
+import priv.gsc.forum.util.ForumConstant;
 import priv.gsc.forum.util.ForumUtil;
 import priv.gsc.forum.util.HostHolder;
 
@@ -24,7 +26,7 @@ import java.io.*;
 
 @Controller
 @RequestMapping("/user")
-public class UserController {
+public class UserController implements ForumConstant {
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
@@ -45,6 +47,9 @@ public class UserController {
 
     @Autowired
     private LikeService likeService;
+
+    @Autowired
+    private FollowService followService;
 
     @LoginRequired
     @GetMapping("/setting")
@@ -138,6 +143,20 @@ public class UserController {
         // 点赞数量
         int likeCount = likeService.findUserLikeCount(userId);
         model.addAttribute("likeCount", likeCount);
+
+        // 关注数量
+        long followeeCount = followService.findFolloweeCount(userId, ENTITY_TYPE_USER);
+        model.addAttribute("followeeCount", followeeCount);
+        // 粉丝数量
+        long followerCount = followService.findFollowerCount(ENTITY_TYPE_USER, userId);
+        model.addAttribute("followerCount", followerCount);
+        // 是否已关注
+        boolean hasFollowed = false;
+
+        if (hostHolder.getUser() != null) {
+            hasFollowed = followService.hasFollowed(hostHolder.getUser().getId(), ENTITY_TYPE_USER, userId);
+        }
+        model.addAttribute("hasFollowed", hasFollowed);
 
         return "/site/profile";
     }

@@ -38,4 +38,9 @@ public interface ForumConstant {
      */
     int ENTITY_TYPE_COMMENT = 2;
 
+    /**
+     * 用户对应的EntityType
+     */
+    int ENTITY_TYPE_USER = 3;
+
 }
