@@ -37,8 +37,8 @@ public class UserService implements ForumConstant {
     @Autowired
     private MailClient mailClient;
 
-//    @Autowired
-//    private LoginTicketMapper loginTicketMapper;
+    @Autowired
+    private LoginTicketMapper loginTicketMapper;
 
     @Autowired
     private RedisTemplate redisTemplate;

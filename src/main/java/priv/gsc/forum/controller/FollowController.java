@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import priv.gsc.forum.entity.Event;
 import priv.gsc.forum.entity.Page;
 import priv.gsc.forum.entity.User;
+import priv.gsc.forum.event.EventProducer;
 import priv.gsc.forum.service.FollowService;
 import priv.gsc.forum.service.UserService;
 import priv.gsc.forum.util.ForumConstant;
@@ -30,6 +32,9 @@ public class FollowController implements ForumConstant {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private EventProducer eventProducer;
+
     // 异步 使用post
     @PostMapping("/follow")
     @ResponseBody
@@ -37,6 +42,15 @@ public class FollowController implements ForumConstant {
         User user = hostHolder.getUser();
 
         followService.follow(user.getId(), entityType, entityId);
+
+        // 触发关注事件
+        Event event = new Event()
+                .setTopic(TOPIC_FOLLOW)
+                .setUserId(user.getId())
+                .setEntityType(entityType)
+                .setEntityId(entityId)
+                .setEntityUserId(entityId);
+        eventProducer.fireEvent(event);
 
         return ForumUtil.getJSONString(0, "已关注！");
     }
